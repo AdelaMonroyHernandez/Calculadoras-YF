@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Added background color to the body */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculadora {
+    width: 300px; /* Increased the width for a better layout */
+    height: 500px; /* Increased the height for a better layout */
+    background-color: #f07f7f;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Rest of the styles for the calculator */
+}
+
+.pantalla {
+    width: calc(100% - 40px);
+    height: 80px;
+    background-color: #e0e0e0; /* Adjusted the background color for better visibility */
+    text-align: right;
+    font-size: 24px;
+    padding: 20px;
+    border: 2px solid #c2bcbc;
+    border-bottom: none; /* Removed the bottom border to separate from the teclado section */
+    margin: 0 auto;
+}
+
+.display {
+    font-weight: bold;
+    color: #333; /* Adjusted the text color for better readability */
+}
+
+.teclados {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Improved spacing between teclado buttons */
+    margin-top: 5px; /* Added some top margin for separation from the pantalla */
+}
+
+.teclado {
+    width: 22%; /* Adjusted the width for better spacing */
+    height: 60px;
+    border: 1px solid #f04545;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 18px; /* Reduced font size for better fit */
+    color: #333;
+    cursor: pointer;
+    margin-bottom: 1px; /* Added bottom margin for better separation */
+}
+
+.teclado:hover {
+    background-color: #fff;
+    color: #f04545; /* Adjusted text color on hover for better visibility */
+}
+.teclado#btn-igual {
+    background-color: #f799f7;
+}
+
+
+
+
+
